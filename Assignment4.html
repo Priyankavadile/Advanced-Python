@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <title>program to display only elements containing 'a' in them from a array in JavaScript</title>
+       <h1> program to display only elements containing 'a' in them from a array in JavaScript</h1>
+       <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+  </head>
+  <body>
+   
+    <script>
+         let array = ['a','b','c'];
+         
+         
+        function check(array) 
+        {
+          return array >= 'a';
+         }
+         function myFunction() 
+         {
+            document.getElementById("demo").innerHTML = array.find(check);
+         }
+
+    </script>
+  </body>
+</html>
